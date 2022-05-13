@@ -1,0 +1,312 @@
+@font-face
+{
+    font-family:"Shabnam";
+    src: url("Shabnam-Medium-FD.woff");
+    font-weight: bold;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+#kadrAsli
+{
+    width: 100%;
+    height: 100%;
+    background-image: url("fast-food-seamless-background-menu-pattern-vector-10455461.jpg");
+    background-size: 400px;
+    position: relative;
+}
+
+#kadrGardooneh
+{
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    margin:auto;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom: 0px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 20px 6px #381000;
+    position:absolute;
+}
+
+h2#titrGardooneh
+{
+    width: calc(100% - 32px);
+    text-align: center;
+    font-size: 2rem;
+    margin: 0px;
+    border-radius: 10px;
+    font-family: Shabnam;
+    padding: 16px;
+    margin-bottom: 10px;
+    color: #381000 ;
+    text-shadow:0px 0px 10px #fff;
+
+}
+
+#gardooneh
+{
+    width: 360px;
+    height:360px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 20px;
+    border:5px ridge  #381000;
+    position: relative;
+}
+
+img#aksGardooneh
+{
+    width: 100%;
+    height: 100%;
+    transition:all 3s ease 0.3s;
+    transform: rotate(0,0);
+}
+
+#gardooneh:before
+{
+    content: " ";
+    border-width: 25px;
+    border-color: #009fff transparent transparent transparent;
+    border-style: solid;
+    position: absolute;
+    left: calc(50% - 25px);
+    top: 0px;
+    z-index: 2;
+}
+
+input[type="submit"]
+{
+    display: block;
+    width: 150px;
+    height: 60px;
+    font-family: Shabnam;
+    font-size: 1.5rem;
+    background-color: #ab0918;
+    color: white;
+    margin: auto;
+    border-radius: 10px;
+    border: 5px outset #bb0414;
+}
+
+a#dokmeh
+{
+    display: block;
+    width: 150px;
+    padding: 9px;
+    font-family: Shabnam;
+    font-size: 1.5rem;
+    background-color: #ab0918;
+    color: white;
+    margin: auto;
+    border-radius: 10px;
+    border: 5px outset #bb0414;
+    text-decoration: none;
+}
+
+a#dokmeh:hover
+{
+    background-color: #570007;
+    border: 5px solid #bb0414;
+    color: yellow;
+}
+a#dokmeh:active
+{
+    transform: scale(0.9,0.9);
+}
+
+div#kadrDavat
+{
+    background-color: #ffd55dcc;
+    font-family: arial;
+    display: none;
+    width: 600px;
+    height: 400px;
+    border-radius: 30px;
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 5;
+    opacity: 0;
+    transform:scale(0,0);
+    transition: all 1s ease-out;
+}
+a#dokmeBastan
+{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-image: url(1.png);
+    background-size: cover;
+    border-radius: 50%;
+
+}
+p#jayezahBarande
+{
+    font-family: Shabnam;
+    font-size: 5.5rem;
+    text-shadow: 5px 5px 20px #fff;
+    color: #5c0202;
+}
+
+#titr
+{
+    font-family: 'Shabnam';
+}
+
+/*استایل های فرم لاگین*/
+#kadrSabteNam
+{
+    width: 370px;
+    height: 500px;
+    border-radius: 10px;
+    margin:auto;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom: 0px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 20px 6px #381000;
+    position:absolute;
+}
+
+h2#titrSabteNam
+{
+    width: calc(100% - 32px );
+    text-align: center;
+    font-size: 2rem;
+    margin: 0px;
+    border-radius: 20px;
+    font-family: Shabnam;
+    padding: 16px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    background-color: #381000;
+
+}
+
+.kadrInput
+{
+    width:100%;
+}
+input
+{
+    width: calc(100% - 24px);
+    padding: 10px;
+    height: 55px;
+    font-size: 1.8rem;
+    font-family: Shabnam;
+    text-align: center;
+    border-radius: 30px;
+}
+input[type="text"]:focus
+{
+    width: calc(100% - 30px);
+    height: 49px;
+    outline-style: none;
+    border: 3px solid #5c0202;
+    background-color: #fdf9af;
+    border-radius: 30px;
+}
+.titrInput
+{
+    display: inline-block;
+    width: calc(100% - 40px);
+    padding: 20px;
+    text-align: right;
+    font-family: Shabnam;
+    font-size: 1.8rem;
+    text-shadow: 2px 0px #fff,0px 2px #fff,0px -2px #fff,-2px 0px #fff;
+}
+input[name="dokmeVorod"]
+{
+    margin-top:30px ;
+}
+input[name="dokmeVorod"]:hover
+{
+    background-color: #570007;
+    border: 5px solid #bb0414;
+    color: yellow;
+}
+input[name="dokmeVorod"]:active
+{
+    transform: scale(0.9,0.9);
+}
+#kadrPeyghamKhata
+{
+    position: fixed;
+    top:-70px;
+    right:20px;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #ffaeb6;
+    border-radius: 10px;
+    border: 2px solid #650009;
+    color: #650009;
+    transition:top 1s ease 0s;
+    z-index:2;
+}
+#kadrPeyghamKhata>p
+{
+    color: #650009;
+    font-family: Shabnam;
+    font-size: 1.2rem;
+    margin:0px;
+}
+
+a#khorooj
+{
+    position: absolute;
+    top:0px;
+    left:-35px;
+    width: 30px;
+    height: 30px;
+    background-image: url("khorooj.png");
+    background-size: contain;
+    background-color: #650009;
+    border-radius: 10px;
+}
+div#kadrOzviat
+{
+    position: fixed;
+    top:20px;
+    right:20px;
+    height: 16px;
+    font-family: Shabnam;
+    color: #fff;
+    font-size: 1rem;
+    padding:7px 5px ;
+    background-color: #650009;
+    border-radius: 10px;
+    line-height: 1;
+    text-align: center;
+
+}
+a#ozviat
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
